@@ -1,11 +1,16 @@
 
+\todo[inline]{En ting å tenke på gjennom hele denne seksjonen er hvorfor du introduserer et konsept/en modell og hvem man skriver for. }
+
+\todo[inline]{Her snakker vi om hvorfor vi introduserer tingene vi gjør. Litt om linja vi ønsker å legge oss på, den logiske oppbygningen i seksjonen etc.}
 
 \section{Neural Networks}
-Neural Networks (NNs), the cornerstone of many modern artificial intelligence applications, are computational models inspired by the human brain. They consist of interconnected groups of artificial neurons, where each connection represents a synaptic strength or weight. These weights are adjusted through a process known as learning.\newline\newline
-Dette er en test
+Neural Networks (NNs), the cornerstone of many modern artificial intelligence applications, are computational models inspired by the human brain. They consist of interconnected groups of artificial neurons, where each connection represents a synaptic strength or weight. These weights are adjusted through a process known as learning. 
+
+\todo[inline]{Ikke helt fornøyd. Legge ved en kilde på hvor de ble introduser første gang. Hvem som definerte og når?}
 
 
 \subsection{Structure of Neural Networks}
+\todo[inline]{Her må det komme en definisjon. Matriseformen er fin. Finn en god kilde på det.}
 Typically, NNs are structured in layers, including:
 \begin{itemize}
     \item \textbf{Input Layer:} This layer receives the raw input signal for the neural network.
@@ -19,10 +24,12 @@ Typically, NNs are structured in layers, including:
 \end{figure}
 
 \subsection{Learning in Neural Networks}
+\todo[inline]{Her vil jeg egentlig at du tydelig snakker om gradient descent, og varianter av algoritmen. Referer til en kilde som går gjennom gradient descent i detalj}
 The learning process involves adjusting the weights of the connections in the network through a process known as backpropagation, which calculates the gradient of the loss function with respect to the neural network's weights.
 
 
 \subsection{Activation Functions}
+\todo[inline]{Her bør det refereres til definisjonen av et NN. Nevne hvorfor det er rimelig at NN med ikke-lineær aktiveringsfunksjon kan approksimere mange ting:  http://www.vision.jhu.edu/teaching/learning/deeplearning18/assets/Cybenko-89.pdf}
 Non-linear activation functions play a key role in NNs by introducing non-linear properties to the network. This non-linearity is essential because most real-world data is non-linear, meaning it can't be represented accurately with just a straight line.
 The most common activation functions are sigmoid, tanh, and Rectified Linear Unit (ReLU).
 
@@ -31,18 +38,22 @@ ReLU has become a industry standard due to its simplicity and efficiency in back
 In addition to its simplicity it is more efficient at preventing vanishing gradients compared to sigmoid and tanh \cite{ReLuGrad}. 
 
 \subsection{Supervised and unsupervised learning}
-Using a neural network there are two key learning paradigms. Supervised and unsupervised learning. Supervised learning refers to a learning process where the network has access to pre-labelled inputs which acts as targets.
+Using a neural network \todo{Heller start med "In machine learning"??} there are two key learning paradigms. Supervised and unsupervised learning. Supervised learning refers to a learning process where the network has access to pre-labelled inputs which acts as targets.
 For each training example there will be a set of input values alongside a designated output value, which is often human labeled.
-A typical example is classification, where we measure how well the network performes by how well it classifies labels.
+A typical example is classification, where we measure how well the network performes by how well it classifies labels.\todo[inline]{Klassifisering er jo ikke supervised eller unsupervised? Definer klart hva supervised er, og så hva unsupervised er. Så kom med et klart eksempel på hver. Snakk også gjerne om hvor mye mer utbredt supervised er enn unsupervised.}
 
-For unsupervised learning the training set does not include any labels, therefor we are limited to looking at how well the model minimizes or maximizes an assosiated cost function.
+For unsupervised learning the training set does not include any labels, therefor we are limited to looking at how well the model minimizes or maximizes an assosiated cost function. \todo[inline]{Loss function? dette er første gang det nevnes. Definitivt verdt å definere sammen med "learning"}
 
 
 \section{Convolutional Neural Networks, CNN}
-
-Convolutional Neural Networks (CNNs)\cite{CNNs} are a specialized kind of neural network using convolutional layers and pooling for processing data that has a grid like topology. Examples include timeseries data, which can be thought of as a 1 dimensional grid taking samples at regular time intervals, and image data, which is a 2 dimensional grid of pixels.
+\todo[inline]{Dette avsnittet er en direkte kopi fra https://www.deeplearningbook.org/contents/convnets.html}
+Convolutional Neural Networks (CNNs)\cite{CNNs} \todo{riktig kilde?} are a specialized kind of neural network using convolutional layers and pooling for processing data that has a grid like topology . Examples include timeseries data, which can be thought of as a 1 dimensional grid taking samples at regular time intervals, and image data, which is a 2 dimensional grid of pixels. 
 
 \subsection{Convolutional layers}
+\todo[inline]{Ville skrevet mer i symboler her. Matematisk definert diskret konvulosjon? Lettere å snakke om K som en kjerne da.}
+% \todo{https://en.wikipedia.org/wiki/Kernel_image_processing}
+
+
 What characterizes a CNN is the use of a mathematical operation called convolution, which is a special kind of linear operation. The convolution leverages the spatial or temporal structure of the data by enforcing a local connectivity pattern between neurons of adjacent layers.
 The parameters of the convolutional layers are composed of a set of learnable filters or kernels, which have a small receptive field, but is applied to all of the input data. This is achieved by computing the dot product between the entries of the filter and the input, producing a activation map of that filter.
 As a result the network learns filters that activate when they see some specific type of feature at some spacial or temporal position in the input. 
@@ -53,6 +64,7 @@ In a convolutional layer, the configuration involves not only the selection of t
 This reduction in spacial resolution is necessary for tasks like compression which we will discuss in the encoder section.
 
 \subsection{Pooling}
+\todo[inline]{Downsampling is a good word.}
 A pooling layer is in essence a filter using a specified operation to reduce dimensionality. The pooling layer works similarely as a convolutional layer, they both slide through the temporal or spatial axis, computing a mathematical operation.
 
 The most common pooling operations are:
@@ -75,7 +87,9 @@ A typical CNN architecture consists of the following layers:
     \item \textbf{Fully Connected Layer} — Neurons in a fully connected layer have full connections to all activations in the previous layer. Primarely used for processing the information obtained through the convolutional layers to perform a task like classification.
 \end{itemize}
 
+
 \section{Encoder}
+\todo[inline]{Her ville jeg flyttet hele Encoder/Decoder og Projector delen til Methodology, og heller laget en seksjon her med Residual Networks som du kan referere til når du introduserer Encoder og Decoder i VQVAE sammenheng.}
 The Encoder has the task of compressing the high-dimensional input data into a compact and manageable representation. It is a component of the Variational Auto-Encoder architecture, enabling the compression of input to latent variables.
 The encoded data should capture important characteristics and features from the input data necessary for decompression while also removing unessesary and reduntant information. 
 It operates by using a block like structure, where each block is designed to process the input data sequentially.
@@ -164,6 +178,7 @@ The projector architecture is designed with the objective of expanding the numbe
 
 
 \section{Additional Machine Learning Algorithms}
+\todo[inline]{Jeg er strengt tatt ikke sikker på om du trenger å ha med dette. SVM, KNN og KMeans er jo kjent fra bachelornivå. Vi skal skrive for en mastersudent i stat/ML}
 \subsection{Support Vector Machines, SVM}
 Support Vector Machines (SVM) is a supervised machine learning algorithm widely used for classification and regression tasks. The core idea of SVM is to establish an optimal hyperplane that maximizes the margin between different class labels. This approach is effective in high-dimensional spaces, addressingthe curse of dimensionality through its dependence on support vectors.
 These support vectors are a critical subset of the training data that influences the construction of the decision boundary. SVM's adaptability is further enhanced by its capability to incorparate various kernel functions, such as linear and radial basis functions, to suit different types
@@ -219,3 +234,5 @@ The overall silhouette score, $S$, for a dataset is the mean of the silhouette s
 \end{figure}
 
 \section{Representation Learning}
+
+\do{https://www.deeplearningbook.org/contents/representation.html}

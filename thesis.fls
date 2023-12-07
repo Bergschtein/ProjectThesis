@@ -2187,6 +2187,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fncychap/fncychap.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fncychap/fncychap.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fncychap/fncychap.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fncychap/fncychap.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/todonotes/todonotes.sty
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/support_files/critical_info.tex
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/support_files/critical_info.tex
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/support_files/critical_info.tex
@@ -2470,6 +2471,8 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinLibertine
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-ot1.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-ot1.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/libertine/LinBiolinumTB-tlf-ot1.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-ot1--base.tfm
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/figures/figure-pdf/NN.pdf
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/figures/figure-pdf/NN.pdf
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/figures/figure-pdf/NN.pdf
@@ -2477,8 +2480,6 @@ INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/figures/figure-pdf/
 INPUT /Users/johanvikmathisen/Documents/GitHub/ProjectThesis/figures/figure-pdf/NN.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ot1.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-ot1.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/libertine/LinBiolinumTB-tlf-ot1.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-ot1--base.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-ot1.vf
