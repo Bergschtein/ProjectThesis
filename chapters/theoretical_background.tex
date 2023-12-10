@@ -4,6 +4,20 @@
 \todo[inline]{Her snakker vi om hvorfor vi introduserer tingene vi gjør. Litt om linja vi ønsker å legge oss på, den logiske oppbygningen i seksjonen etc.}
 
 \section{Neural Networks}
+Neural Networks (NNs), the cornerstone of many modern artificial intelligence applications, are computational models inspired by the human brain. They consist of interconnected groups of artificial neurons, where each connection represents a synaptic strength or weight. These weights are adjusted through a process known as learning. 
+
+\todo[inline]{Ikke helt fornøyd. Legge ved en kilde på hvor de ble introduser første gang. Hvem som definerte og når?}
+
+
+\subsection{Structure of Neural Networks}
+\todo[inline]{Her må det komme en definisjon. Matriseformen er fin. Finn en god kilde på det.}
+Typically, NNs are structured in layers, including:
+\begin{itemize}
+    \item \textbf{Input Layer:} This layer receives the raw input signal for the neural network.
+    \item \textbf{Hidden Layers:} One or more layers where computation occurs through a system of weighted connections. These layers perform non-linear transformations of the inputs entered into the network.
+    \item \textbf{Output Layer:} This layer produces the final output of the neural network.
+\end{itemize}
+
 The three scientific works that sparked the modern era of Neural Networks (NNs) was the proposal of the single layer Neural Network by McCulloch and Pitts in 1943 \cite{logcalc}, the first perceptron by Rosenblatt in 1958 \cite{perceptron} and the backpropagation algorithm by Werbos in 1974 \cite{backprop}.
 
 
@@ -147,6 +161,7 @@ A typical CNN architecture consists of the following layers:
     \item \textbf{Pooling} — This layer reduces the spatial size of the representation, reducing the number of parameters and computation in the network, and hence, also controlling overfitting. 
     \item \textbf{Fully Connected Layer} — Neurons in a fully connected layer have full connections to all activations in the previous layer. Primarely used for processing the information obtained through the convolutional layers to perform a task like classification.
 \end{itemize}
+
 
 
 \section{Residual block}

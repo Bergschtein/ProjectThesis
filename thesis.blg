@@ -1,19 +1,19 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[135] biber-darwin:340> INFO - === Sun Dec 10, 2023, 14:38:53
-[164] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[336] Biber.pm:952> INFO - Found 28 citekeys in bib section 0
-[361] Biber.pm:4340> INFO - Processing section 0
-[380] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[384] bibtex.pm:1689> INFO - LaTeX decoding ...
-[434] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[438] Utils.pm:395> WARN - Duplicate entry key: 'VAE' in file 'references.bib', skipping ...
-[701] Utils.pm:395> WARN - legacy month field 'October' in entry 'UCRArchive2018' is not an integer - this will probably not sort properly.
-[731] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[821] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[821] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[821] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-GB'
-[821] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-GB'
-[883] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[912] bbl.pm:757> INFO - Output to thesis.bbl
-[912] Biber.pm:128> INFO - WARNINGS: 3
+[129] biber-darwin:340> INFO - === Sun Dec 10, 2023, 14:47:17
+[156] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[319] Biber.pm:952> INFO - Found 28 citekeys in bib section 0
+[345] Biber.pm:4340> INFO - Processing section 0
+[366] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[369] bibtex.pm:1689> INFO - LaTeX decoding ...
+[426] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[431] Utils.pm:395> WARN - Duplicate entry key: 'VAE' in file 'references.bib', skipping ...
+[693] Utils.pm:395> WARN - legacy month field 'October' in entry 'UCRArchive2018' is not an integer - this will probably not sort properly.
+[725] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[809] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[809] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[810] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-GB'
+[810] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-GB'
+[876] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[903] bbl.pm:757> INFO - Output to thesis.bbl
+[904] Biber.pm:128> INFO - WARNINGS: 3

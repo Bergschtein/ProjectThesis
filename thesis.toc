@@ -9,7 +9,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Neural Networks}{2}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Learning in Neural Networks}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Structure of Neural Networks}{2}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Learning in Neural Networks}{4}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Supervised and unsupervised learning}{5}{section.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -31,27 +33,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.3}Barlow Twins}{11}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Objective function of Barlow Twins}{11}{section*.9}%
+\contentsline {subsubsection}{Objective function of Barlow Twins}{11}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Siamese architecture}{11}{section*.10}%
+\contentsline {subsubsection}{Siamese architecture}{11}{section*.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}The Vector Quantized Variational Autoencoder, VQ-VAE}{12}{section.2.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.1}Evolution from Variational Auto-Encoder, VAE}{13}{subsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variational inference and optimization}{13}{section*.12}%
+\contentsline {subsubsection}{Variational inference and optimization}{13}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Challenges in Maximum Likelihood Estimation}{13}{section*.13}%
+\contentsline {subsubsection}{Challenges in Maximum Likelihood Estimation}{13}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variational Approximation}{14}{section*.14}%
+\contentsline {subsubsection}{Variational Approximation}{14}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Evidence Lower Bound}{14}{section*.15}%
+\contentsline {subsubsection}{Evidence Lower Bound}{14}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6.2}Transition to discrete latent variables}{15}{subsection.2.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vector quantization}{15}{section*.16}%
+\contentsline {subsubsection}{Vector quantization}{15}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Effect on KL divergence}{15}{section*.17}%
+\contentsline {subsubsection}{Effect on KL divergence}{15}{section*.19}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Related work / Literature review}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -67,11 +69,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Learning}{22}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Reconstruction}{22}{section*.21}%
+\contentsline {subsubsection}{Reconstruction}{22}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Codebook-learning loss}{23}{section*.22}%
+\contentsline {subsubsection}{Codebook-learning loss}{23}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Codebook Update Mechanism}{23}{section*.23}%
+\contentsline {subsubsection}{Codebook Update Mechanism}{23}{section*.25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Modifying the VQVAE for Enhanced Self Supervised Learning}{24}{section.4.4}%
 \defcounter {refsection}{0}\relax 
@@ -79,7 +81,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Projector}{25}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Learning}{25}{section*.26}%
+\contentsline {subsubsection}{Learning}{25}{section*.28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}Augmentation Techniques}{26}{subsection.4.4.3}%
 \defcounter {refsection}{0}\relax 
