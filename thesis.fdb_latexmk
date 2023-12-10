@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber thesis"] 1702215530 "thesis.bcf" "thesis.bbl" "thesis" 1702215548
+["biber thesis"] 1702215530 "thesis.bcf" "thesis.bbl" "thesis" 1702215583
   "references.bib" 1702215144 11063 0e5fd6ed2929bd55fb45afa391915a65 ""
   "thesis.bcf" 1702215546 109896 ff82735da04bc24ddb3be17514232f41 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1702215540 "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.tex" "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.pdf" "thesis" 1702215548
+["pdflatex"] 1702215540 "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.tex" "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.pdf" "thesis" 1702215583
   "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.aux" 1702215546 24427 d13ea9ee2b597a5c75a1110b52a99c28 ""
   "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.tex" 1702215300 3338 db4fd62e90d5d097c4fbda7625711eb2 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -472,12 +472,12 @@
   "thesis.tex" 1702215300 3338 db4fd62e90d5d097c4fbda7625711eb2 ""
   "thesis.toc" 1702215546 5929 855baab553e68f3c622b1c38e50ecd76 "pdflatex"
   (generated)
-  "thesis.pdf"
-  "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.log"
-  "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.pdf"
-  "thesis.aux"
-  "thesis.log"
   "thesis.bcf"
+  "thesis.aux"
   "thesis.toc"
   "thesis.run.xml"
+  "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.log"
+  "thesis.pdf"
+  "/Users/johanvikmathisen/Documents/GitHub/ProjectThesis/thesis.pdf"
   "thesis.out"
+  "thesis.log"
